@@ -13,7 +13,9 @@ display: flex;
 width: 100%;
 justify-content: space-between;
 align-items: center;
-flex-shrink: 0;}
+flex-shrink: 0;
+min-width: 320px;
+}
 
 .navbar-brand {
 display: flex;
@@ -126,4 +128,19 @@ font-weight: 400;
 line-height: 150%; /* 24px */
 background-color: transparent;
 text-wrap: nowrap;
+}
+
+
+@media (max-width: 700px) {
+  .navbar-container {
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 0;
+  }
+  .navbar-menu {
+    position: static;
+    width: 100%;
+    justify-content: flex-start;
+    gap: 16px;
+  }
 }
