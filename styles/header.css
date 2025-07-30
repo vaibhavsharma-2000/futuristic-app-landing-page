@@ -1,0 +1,129 @@
+.header{
+display: flex;
+flex-direction: row;
+padding: 0 24px;
+justify-content: center;
+align-items: center;
+align-self: stretch;
+height: 72px;
+}
+
+.navbar-container {
+display: flex;
+width: 100%;
+justify-content: space-between;
+align-items: center;
+flex-shrink: 0;}
+
+.navbar-brand {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+flex-shrink: 0;
+position: relative;
+left: 120px;
+}
+
+.navbar-menu {
+position: absolute;
+display: flex;
+align-items: center;
+gap: 32px;
+right: 144px;
+flex-shrink: 0;
+}
+
+.vaultlogo {
+display: inline-flex;
+width: 22px;
+height: 22px;
+align-items: flex-start;
+gap: 10px;
+flex-shrink: 0;
+background: lightgray 50% / cover no-repeat;
+}
+
+.vaultflow-title:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: ease-in 0.2s;
+}
+
+.vaultflow-title {
+color: #ECECEC;
+font-feature-settings: 'liga' off, 'clig' off;
+font-family: Montserrat, Arial;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 22px */
+letter-spacing: -0.66px;
+}
+
+.header-text {
+color: #ECECEC;
+font-family: Montserrat, Arial;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+text-wrap: nowrap;
+}
+
+.header-text:hover {
+  cursor: pointer;
+  color: #ECECEC;
+  text-decoration: underline;
+transition: ease-in 0.2s;
+}
+
+.header-download-button {
+display: flex;
+padding: 8px 20px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: 50px;
+border: 1px solid #ECECEC;
+background: #ECECEC;
+color: #0B081C;
+font-family: Montserrat, Arial;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+text-wrap: nowrap;
+}
+
+.header-download-button:hover {
+  cursor: pointer;
+  text-decoration: bold;
+  transition: ease-in 0.2s;
+  font-size: 18px;
+}
+
+.header-talk-button:hover {
+  cursor: pointer;
+  text-decoration: bold;
+  transition: ease-in 0.2s;
+  font-size: 18px;
+}
+
+.header-talk-button {
+display: flex;
+padding: 8px 20px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: 50px;
+border: 1px solid #ECECEC;
+color: #ECECEC;
+font-family: Montserrat, Arial;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+background-color: transparent;
+text-wrap: nowrap;
+}
